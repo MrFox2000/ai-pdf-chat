@@ -15,6 +15,8 @@ Streaming answers · page-level citations · runs without an API key
 
 </div>
 
+**[Live demo →](https://ai-pdf-chat-two.vercel.app/)** · upload any text-based PDF and ask a question. No signup, no key: the demo runs against the backend's offline mode, so retrieval and page citations are real while the answer text is extracted rather than generated.
+
 ---
 
 ## What it does
