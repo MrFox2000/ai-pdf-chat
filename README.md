@@ -6,6 +6,7 @@
 
 Streaming answers · page-level citations · runs without an API key
 
+[![CI](https://github.com/MrFox2000/ai-pdf-chat/actions/workflows/ci.yml/badge.svg)](https://github.com/MrFox2000/ai-pdf-chat/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.12-3776ab?logo=python&logoColor=white)](backend/pyproject.toml)
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=next.js)](frontend/package.json)
 [![Tests](https://img.shields.io/badge/tests-12%20passing-2dd4bf)](backend/tests)
