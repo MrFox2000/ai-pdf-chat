@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #0a0c12;
+  --color-panel: #10131b;
+  --color-panel-soft: #151925;
+  --color-line: #222838;
+  --color-accent: #6d6afc;
+  --color-accent-soft: #8b89ff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(900px 500px at 12% -10%, rgba(109, 106, 252, 0.16), transparent 60%),
+    radial-gradient(700px 400px at 92% 8%, rgba(45, 212, 191, 0.1), transparent 55%),
+    var(--color-surface);
+  color: #e6e8ef;
+}
+
+::selection {
+  background: rgba(109, 106, 252, 0.35);
+}
+
+.scroll-area {
+  scrollbar-width: thin;
+  scrollbar-color: #2a3145 transparent;
+}
+
+.scroll-area::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-area::-webkit-scrollbar-thumb {
+  background: #2a3145;
+  border-radius: 999px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise 0.28s ease-out both;
+}
